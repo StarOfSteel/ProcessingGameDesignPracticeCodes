@@ -1,3 +1,5 @@
+import gifAnimation.*;
+
 float ballX, ballY; //ball size
 float ballSpeedX = 30, ballSpeedY = 30; //speed of ball as set to 3
 
@@ -34,5 +36,6 @@ void draw() {
     
   }
   
-  
+  saveFrame("BouncingBall.gif");
+  noLoop();
 }
