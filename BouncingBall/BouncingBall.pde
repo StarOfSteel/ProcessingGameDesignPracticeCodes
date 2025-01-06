@@ -1,5 +1,5 @@
 float ballX, ballY; //ball size
-float ballSpeedX = 3, ballSpeedY = 3; //speed of ball as set to 3
+float ballSpeedX = 30, ballSpeedY = 30; //speed of ball as set to 3
 
 
 void setup() {
